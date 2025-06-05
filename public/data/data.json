@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "nombre": "Mojito",
+      "precio": 8.5,
+      "stock": 25,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDSguXxgPkbk8Z7gHspLavSupIqXF6p2by_g&s",
+      "categoria": "clásico",
+      "cantidad": 0
+    },
+    {
+      "id": 2,
+      "nombre": "Piña Colada",
+      "precio": 9.0,
+      "stock": 18,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyB4OdAMf-Cnk8dyo-MTbVK50-MZBlo0EIzg&s",
+      "categoria": "tropical",
+      "cantidad": 0
+    },
+    {
+      "id": 3,
+      "nombre": "Daiquiri de Fresa",
+      "precio": 10.0,
+      "stock": 12,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2qow489_VUlm0JP_814OKAKQpAenu7T9NnA&s",
+      "categoria": "tropical",
+      "cantidad": 0
+    },
+    {
+      "id": 4,
+      "nombre": "Bloody Mary",
+      "precio": 9.5,
+      "stock": 15,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzPh4EahkGN_sljU4LNtwjf0MFhTSGe0zb9g&s",
+      "categoria": "clásico",
+      "cantidad": 0
+    },
+    {
+      "id": 5,
+      "nombre": "Sex on the Beach",
+      "precio": 8.0,
+      "stock": 20,
+      "imagen": "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/CFF0C31F-1F4D-4655-85F7-2C6D669E0269/Derivates/DA29817C-241C-4DE0-AD2C-CFEA61D762FA.jpg",
+      "categoria": "tropical",
+      "cantidad": 0
+    },
+    {
+      "id": 6,
+      "nombre": "Cóctel sin Alcohol de Frutas",
+      "precio": 6.0,
+      "stock": 30,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVn2FyPK8HYYE_FgMwd2zjvpfTe4gfyvKZSA&s",
+      "categoria": "sin alcohol",
+      "cantidad": 0
+    }
+  ]
+  

@@ -1,0 +1,117 @@
+body {
+    background: linear-gradient(135deg, #2C3E50 0%, #3498DB 100%);
+    color: #ffffff;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    padding-top: 60px;
+}
+
+nav{
+    background-color: rgba(44, 62, 80, 0.9);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    align-items: center;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #3498DB;
+}
+
+footer{
+    background-color: #1a237e;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.developer-link {
+    margin-top: 0.5rem;
+}
+
+.developer-link a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.developer-link a:hover {
+    color: #64ffda !important;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+}
+
+.cartnav {
+    position: relative;
+}
+
+.btnCart {
+    background-color: transparent;
+    border: none;
+    transition: transform 0.3s ease;
+    position: relative;
+    padding: 5px;
+}
+
+.btnCart:hover {
+    transform: scale(1.1);
+}
+
+.fa-cart-shopping {
+    color: #3498DB;
+    font-size: 1.2em;
+}
+
+.cart-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8em;
+    font-weight: bold;
+    animation: popIn 0.3s ease;
+}
+
+@keyframes popIn {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,114 @@
+.cliente-container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cliente-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.cliente-header h2 {
+    color: #2C3E50;
+    margin: 0;
+}
+
+.volver-inicio {
+    padding: 0.75rem 1.5rem;
+    background-color: #3498DB;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.volver-inicio:hover {
+    background-color: #2980b9;
+}
+
+.carrito-vacio {
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 1.2rem;
+    margin: 2rem 0;
+}
+
+.productos-carrito {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.producto-carrito {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 1.5rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    align-items: center;
+}
+
+.producto-carrito img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.producto-info h3 {
+    margin: 0 0 0.5rem 0;
+    color: #2C3E50;
+}
+
+.producto-info p {
+    margin: 0.25rem 0;
+    color: #7f8c8d;
+}
+
+.eliminar-btn {
+    padding: 0.5rem 1rem;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.eliminar-btn:hover {
+    background-color: #c0392b;
+}
+
+.carrito-footer {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    border-top: 2px solid #ecf0f1;
+}
+
+.total {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #2C3E50;
+}
+
+.limpiar-btn {
+    padding: 0.75rem 1.5rem;
+    background-color: #95a5a6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.limpiar-btn:hover {
+    background-color: #7f8c8d;
+} 
